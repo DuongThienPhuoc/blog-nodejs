@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog page to learn NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phuockingboy2/blog-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "blog"
+  ],
+  "author": "phuocdt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phuockingboy2/blog-nodejs/issues"
+  },
+  "homepage": "https://github.com/Phuockingboy2/blog-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
